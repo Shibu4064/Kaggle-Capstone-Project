@@ -1,0 +1,112 @@
+{
+  "case_id": "CA-FIRE-003",
+  "security_audit": {
+    "status": "pass",
+    "timestamp_utc": "2026-06-20T18:14:34Z",
+    "prompt_injection": {
+      "score": 0.0,
+      "risk": "low",
+      "matches": []
+    },
+    "pii_found": false,
+    "reasons": [
+      "No blocking security issue detected."
+    ]
+  },
+  "risk_triage": {
+    "location": "Northern California, USA",
+    "primary_hazard": "wildfire",
+    "hazard_keyword_scores": {
+      "wildfire": 5,
+      "flood": 0,
+      "cyclone": 0,
+      "heatwave": 0,
+      "landslide": 0
+    },
+    "affected_people": 1300,
+    "vulnerable_groups": [
+      "people with respiratory risk",
+      "children"
+    ],
+    "severity_score": 78.1,
+    "urgency": "critical",
+    "evidence": [
+      "Top hazard keyword match: wildfire=5",
+      "Affected population considered: 1300",
+      "Vulnerable groups considered: people with respiratory risk, children"
+    ]
+  },
+  "retrieved_guidelines": {
+    "query": "wildfire Wildfire smoke is spreading toward two communities. One access road is blocked. Residents report ash fall and breathing difficulty. Evacuation route update needed. vulnerable groups communication privacy",
+    "top_k": 4,
+    "results": [
+      {
+        "id": "G003",
+        "hazard": "wildfire",
+        "title": "Wildfire evacuation and smoke exposure",
+        "guideline": "Create evacuation zones, reduce smoke exposure, support people with respiratory risk, maintain clear escape routes, and avoid sending responders into unsafe fire corridors without official clearance.",
+        "similarity": 0.366
+      },
+      {
+        "id": "G002",
+        "hazard": "cyclone",
+        "title": "Cyclone preparedness and sheltering",
+        "guideline": "Activate shelters before landfall, secure loose outdoor objects, prioritize coastal and river-adjacent communities, prepare backup communication, and keep vulnerable groups near support services.",
+        "similarity": 0.205
+      },
+      {
+        "id": "G007",
+        "hazard": "general",
+        "title": "Privacy-preserving crisis support",
+        "guideline": "Remove personal identifiers unless needed for consent-based rescue coordination, keep logs minimal, and never expose private phone numbers or addresses in public alerts.",
+        "similarity": 0.118
+      },
+      {
+        "id": "G005",
+        "hazard": "landslide",
+        "title": "Landslide early warning and road safety",
+        "guideline": "Avoid unstable slopes, monitor blocked roads and cracked ground, relocate households near steep terrain, and coordinate safe routes for rescue and supplies.",
+        "similarity": 0.113
+      }
+    ]
+  },
+  "resource_plan": {
+    "urgency": "critical",
+    "primary_hazard": "wildfire",
+    "resource_summary": {
+      "shelters": 4,
+      "volunteers": 42,
+      "buses": 7,
+      "medical_kits": 18,
+      "masks": 1600
+    },
+    "estimated_72h_water_need_litres": 11700,
+    "estimated_water_gap_litres": 11700,
+    "recommended_actions": [
+      "Escalate to local emergency coordination immediately.",
+      "Publish evacuation-route update and blocked-road warning.",
+      "Move smoke-sensitive residents toward cleaner-air shelter areas.",
+      "Distribute masks where available and reduce outdoor exposure.",
+      "Request additional drinking water: estimated 72-hour gap is 11,700 litres."
+    ],
+    "communication_channels": [
+      "SMS",
+      "local radio",
+      "public dashboard"
+    ],
+    "human_review_required": true,
+    "disclaimer": "Decision-support only. Follow official emergency services and local authority instructions."
+  },
+  "public_messages": {
+    "english": "Safety update for Northern California, USA: wildfire risk is currently critical. Please follow official instructions. Priority actions: 1) Escalate to local emergency coordination immediately. 2) Publish evacuation-route update and blocked-road warning. 3) Move smoke-sensitive residents toward cleaner-air shelter areas. Do not share private phone numbers or exact home addresses in public comments.",
+    "bangla": "Northern California, USA এলাকার জন্য নিরাপত্তা আপডেট: বর্তমানে wildfire ঝুঁকির মাত্রা critical. আপনি স্থানীয় কর্তৃপক্ষের নির্দেশনা অনুসরণ করুন। অগ্রাধিকার কাজ: 1) Escalate to local emergency coordination immediately. 2) Publish evacuation-route update and blocked-road warning. 3) Move smoke-sensitive residents toward cleaner-air shelter areas. জনসমক্ষে ব্যক্তিগত ফোন নম্বর বা সুনির্দিষ্ট ঠিকানা শেয়ার করবেন না।",
+    "requested_language": "english"
+  },
+  "agent_technology_demonstrated": [
+    "multi-agent workflow design",
+    "MCP-compatible tool functions",
+    "RAG over local crisis guidelines",
+    "privacy/security guardrails",
+    "structured JSON output for evaluation"
+  ]
+}

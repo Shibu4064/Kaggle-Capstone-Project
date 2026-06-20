@@ -1,0 +1,67 @@
+[
+  {
+    "case_id": "BD-FLOOD-001",
+    "location": "Sylhet, Bangladesh",
+    "incident_text": "Heavy rainfall for 36 hours. River water is entering homes in low-lying areas. Reports mention older adults stranded, blocked roads, school building available as shelter.",
+    "affected_people": 850,
+    "vulnerable_groups": [
+      "older adults",
+      "children",
+      "people with limited mobility"
+    ],
+    "available_resources": {
+      "shelters": 2,
+      "volunteers": 28,
+      "boats": 5,
+      "medical_kits": 12,
+      "water_liters": 1800
+    },
+    "communication_channels": [
+      "SMS",
+      "community radio",
+      "Facebook page"
+    ]
+  },
+  {
+    "case_id": "UK-HEAT-002",
+    "location": "Poole, United Kingdom",
+    "incident_text": "Three-day heatwave warning. Local care homes request welfare checks. Outdoor event planned tomorrow afternoon. Some residents lack air conditioning.",
+    "affected_people": 420,
+    "vulnerable_groups": [
+      "older adults",
+      "outdoor workers"
+    ],
+    "available_resources": {
+      "cooling_centres": 3,
+      "volunteers": 15,
+      "medical_kits": 8,
+      "water_liters": 1200
+    },
+    "communication_channels": [
+      "SMS",
+      "local council website"
+    ]
+  },
+  {
+    "case_id": "CA-FIRE-003",
+    "location": "Northern California, USA",
+    "incident_text": "Wildfire smoke is spreading toward two communities. One access road is blocked. Residents report ash fall and breathing difficulty. Evacuation route update needed.",
+    "affected_people": 1300,
+    "vulnerable_groups": [
+      "people with respiratory risk",
+      "children"
+    ],
+    "available_resources": {
+      "shelters": 4,
+      "volunteers": 42,
+      "buses": 7,
+      "medical_kits": 18,
+      "masks": 1600
+    },
+    "communication_channels": [
+      "SMS",
+      "local radio",
+      "public dashboard"
+    ]
+  }
+]

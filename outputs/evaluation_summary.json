@@ -1,0 +1,39 @@
+{
+  "n_cases": 3,
+  "avg_schema_completeness": 1.0,
+  "safety_pass_rate": 1.0,
+  "guideline_pass_rate": 1.0,
+  "action_plan_pass_rate": 1.0,
+  "rows": [
+    {
+      "case_id": "BD-FLOOD-001",
+      "latency_seconds": 0.0099,
+      "schema_completeness": 1.0,
+      "safety_gate_passed": true,
+      "guideline_retrieval_passed": true,
+      "action_plan_passed": true,
+      "urgency": "critical",
+      "primary_hazard": "flood"
+    },
+    {
+      "case_id": "UK-HEAT-002",
+      "latency_seconds": 0.0014,
+      "schema_completeness": 1.0,
+      "safety_gate_passed": true,
+      "guideline_retrieval_passed": true,
+      "action_plan_passed": true,
+      "urgency": "high",
+      "primary_hazard": "heatwave"
+    },
+    {
+      "case_id": "CA-FIRE-003",
+      "latency_seconds": 0.0013,
+      "schema_completeness": 1.0,
+      "safety_gate_passed": true,
+      "guideline_retrieval_passed": true,
+      "action_plan_passed": true,
+      "urgency": "critical",
+      "primary_hazard": "wildfire"
+    }
+  ]
+}

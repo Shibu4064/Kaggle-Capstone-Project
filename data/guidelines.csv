@@ -1,0 +1,8 @@
+id,hazard,title,guideline
+G001,flood,Flood evacuation and water safety,"Prioritize evacuation from low-lying areas, avoid walking or driving through floodwater, move people to higher ground, protect drinking water, and communicate shelter routes clearly."
+G002,cyclone,Cyclone preparedness and sheltering,"Activate shelters before landfall, secure loose outdoor objects, prioritize coastal and river-adjacent communities, prepare backup communication, and keep vulnerable groups near support services."
+G003,wildfire,Wildfire evacuation and smoke exposure,"Create evacuation zones, reduce smoke exposure, support people with respiratory risk, maintain clear escape routes, and avoid sending responders into unsafe fire corridors without official clearance."
+G004,heatwave,Heatwave public-health response,"Open cooling spaces, check older adults and children, encourage hydration, reduce outdoor work during peak heat, and monitor heat stress symptoms with trained medical support."
+G005,landslide,Landslide early warning and road safety,"Avoid unstable slopes, monitor blocked roads and cracked ground, relocate households near steep terrain, and coordinate safe routes for rescue and supplies."
+G006,general,Humanitarian communication principles,"Use plain language, avoid panic, state what happened, who is affected, what action to take now, where to get help, and what information is uncertain."
+G007,general,Privacy-preserving crisis support,"Remove personal identifiers unless needed for consent-based rescue coordination, keep logs minimal, and never expose private phone numbers or addresses in public alerts."
