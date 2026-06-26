@@ -68,7 +68,7 @@ Input:
 Output includes:
 
 - Primary hazard: flood
-- Urgency: high or critical depending on resources
+- Urgency: high or critical, depending on resources
 - Evidence: affected population, vulnerable groups, flood keyword matches
 - Plan: open shelters, prioritize low-lying households, request water gap, use SMS/radio updates
 - Public message: privacy-preserving English and Bangla alert
@@ -105,14 +105,3 @@ pip install -r requirements.txt
 python src/crisisweave_app.py --case-index 0
 python src/evaluation.py
 ```
-
-Optional ADK mode requires a `GOOGLE_API_KEY` environment variable.
-
-## Demo video structure
-1. Show the problem and track.
-2. Run the notebook offline.
-3. Open the JSON output.
-4. Show the ADK agent definitions.
-5. Show the MCP server tools.
-6. Show security redaction with a fake phone/email example.
-7. End with evaluation metrics and limitations.
